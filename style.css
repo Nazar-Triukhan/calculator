@@ -1,0 +1,115 @@
+body{
+    background-color: rgba(128, 181, 255, 0.973);
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-family: "Poppins", sans-serif;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.calculator{
+    border-radius: 39px;
+    padding: 100px 33px 40px 33px;
+    width: 310px;
+    background: linear-gradient(223deg, #17181a 0%, #17181a 100%);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    color: #FFF;
+    outline: #ffffff89;
+    font-size: 30px;
+}
+
+.input:focus{
+outline: none;
+}
+
+.wrap{
+    display: flex;
+    gap: 20px;
+}
+
+.list{
+    display: flex;
+    gap: 20px;
+    height: 60px;
+}
+
+.list__number{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.btn--number{
+    font-weight: 500;
+    font-size: 32px;
+    color: #29a8ff;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn{
+    border: none;
+    width: 62px;
+    height: 60px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn--clear{
+    background: #616161;
+    font-weight: 400;
+    font-size: 24px;
+    color: #a5a5a5;
+}
+
+.btn--delete{
+    background: #616161;
+}
+
+.btn--operator{
+    background: #005db2;
+    font-weight: 500;
+    font-size: 32px;
+    color: #339dff;
+}
+.items li:nth-child(2) .btn--operator{
+    height: 99px;
+}
+
+.btn--number{
+    background: #303136;
+}
+
+.btn--equals{
+    background: #1991ff;
+    height: 100px;
+    font-weight: 500;
+    font-size: 32px;
+    color: #b2daff;
+}
+
+.zero{
+    grid-column: span 2;
+    width: 144px;
+}
+

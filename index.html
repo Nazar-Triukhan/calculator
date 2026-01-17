@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+
+<div class="calculator">
+    <input class="input"  placeholder="0"  type="text">
+
+    <ul class="list">
+        <li class="item">
+            <button type="button" class="btn btn--clear">AC</button>
+        </li>
+        <li class="item">
+            <button type="button" class="btn btn--delete">
+                <img src="./img/Vector.svg" alt="delete">
+            </button>
+        </li>
+        <li class="item">
+            <button type="button" class="btn btn--operator">/</button>
+        </li>
+        <li class="item">
+            <button type="button" class="btn btn--operator">*</button>
+        </li>
+    </ul>
+
+    <div class="wrap">
+
+    <ul class="list__number">
+        <li class="element"><button type="button" class="btn btn--number">9</button></li>
+        <li class="element"><button type="button" class="btn btn--number">8</button></li>
+        <li class="element"><button type="button" class="btn btn--number">7</button></li>
+
+        <li class="element"><button type="button" class="btn btn--number">6</button></li>
+        <li class="element"><button type="button" class="btn btn--number">5</button></li>
+        <li class="element"><button type="button" class="btn btn--number">4</button></li>
+
+        <li class="element"><button type="button" class="btn btn--number">3</button></li>
+        <li class="element"><button type="button" class="btn btn--number">2</button></li>
+        <li class="element"><button type="button" class="btn btn--number">1</button></li>
+
+        <li class="element zero"><button type="button" class="btn btn--number zero">0</button></li>
+        <li class="element"><button type="button" class="btn btn--number btn--dot">.</button></li>
+    </ul>
+
+    <ul class="items">
+        <li class="el">
+            <button type="button" class="btn btn--operator">-</button>
+        </li>
+        <li class="el">
+            <button type="button" class="btn btn--operator">+</button>
+        </li>
+        <li class="el">
+            <button type="button" class="btn btn--equals">=</button>
+        </li>
+    </ul>
+    </div>
+
+</div>
+
+
+
+
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
